@@ -152,7 +152,7 @@
   display: block;
   background-color: var(--background-color);
   font-family: var(--main-font), sans-serif;
-  font-weight: var(--font-weight-card-title);
+  font-variation-settings: "wght" var(--font-weight-card-title);
   font-size: var(--font-size-card);
   padding: 3px 10px;
 }
@@ -231,7 +231,7 @@
 
 .preparation__text {
   font-family: var(--main-font), sans-serif;
-  font-weight: var(--font-weight-card-text);
+  font-variation-settings: "wght" var(--font-weight-card-text);
   font-size: var(--font-size-card);
   line-height: 21px;
   padding: 25px 22px;
@@ -287,7 +287,7 @@
 }
 
 .card__like-button {
-  padding: 0 36px;
+  width: 130px;
   margin-inline-start: 2px;
   cursor: pointer;
 }
@@ -392,12 +392,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 8px 0;
+  padding: 11px 0;
   text-transform: uppercase;
-  width: clamp(16.0625rem, 15.2702rem + 5.8vw, 20.3125rem);
-  background: transparent;
-  cursor: pointer;
-  border: 2px solid var(--accent-color);
+  width: clamp(16.0625rem, 15.2702rem + 5.8vw, 18.3125rem);
 }
 
 .popup-floppy_button:focus {
