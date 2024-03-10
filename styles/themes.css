@@ -80,5 +80,17 @@
         transparent 4px
       ),
       linear-gradient(#007f0c, #004306);
+
+      --font-weight-card-title: 785;
+      --font-weight-card-text: 465;
+      --font-size-card: 18px;
+      --accent-color: #00CC14;
+      --background-color: #000;
+      --text-color: #00CC14;
+      --contour-color: #00CC14;
+      --button-text-color:#00CC14;
+      --background-popup-color: #000;
   }
+    
+
 }
